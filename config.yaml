@@ -1,0 +1,20 @@
+"config.yaml"
+ssim:
+  blur_sigma: 2.0
+  cell_frac: 0.32
+  use_downscale: true
+  downscale_factor: 0.75
+  photometric: true
+  photometric_method: "linear"  # linear | histogram
+
+visual:
+  pad: 80
+  dpi: 150
+
+pattern:
+  size: "7x7"
+
+binary:
+  enable: true
+  save: false
+  out_path: "ideal_binary.png"

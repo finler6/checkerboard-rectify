@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/Test
+.pytest_cache/
+dist/
+build/
+
+# Outputs (keep demo_result.png)
+ideal_binary.png
+*.png
+!demo_result.png
+
